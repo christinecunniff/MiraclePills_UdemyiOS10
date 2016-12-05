@@ -234,8 +234,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="countryField" destination="AX6-dh-l32" id="wJj-ta-9Bn"/>
+                        <outlet property="countryLabel" destination="oen-Sj-f55" id="v3Q-Qh-V9e"/>
                         <outlet property="statePicker" destination="B3h-Xw-hmO" id="Wvw-mH-DzJ"/>
                         <outlet property="statePickerBtn" destination="CBA-SO-5vG" id="XLy-UU-CMR"/>
+                        <outlet property="zipField" destination="Fv4-yM-UbZ" id="cdy-IO-yzJ"/>
+                        <outlet property="zipLabel" destination="kaD-5k-WJx" id="J1g-UX-SKa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
