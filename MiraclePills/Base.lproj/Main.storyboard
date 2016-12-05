@@ -172,6 +172,13 @@
                                     <constraint firstAttribute="height" constant="155" id="wNe-g5-lGx"/>
                                 </constraints>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPP-Q4-QdR">
+                                <rect key="frame" x="91.666666666666686" y="664" width="231" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="231" id="Rlz-DQ-NvG"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="buyNowBtn"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -192,8 +199,10 @@
                             <constraint firstItem="KZZ-dk-zbB" firstAttribute="top" secondItem="uRy-4E-Boz" secondAttribute="bottom" constant="8" id="Jbs-Qi-gic"/>
                             <constraint firstItem="8tU-IE-6ce" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="JrL-gK-h4Y"/>
                             <constraint firstItem="pfu-Lj-yv3" firstAttribute="trailing" secondItem="olM-0j-nL7" secondAttribute="trailing" id="LJj-Au-7Gu"/>
+                            <constraint firstItem="dPP-Q4-QdR" firstAttribute="top" secondItem="B3h-Xw-hmO" secondAttribute="bottom" constant="6" id="LYF-bx-jX0"/>
                             <constraint firstItem="kaD-5k-WJx" firstAttribute="leading" secondItem="AX6-dh-l32" secondAttribute="leading" id="N4v-jC-tEB"/>
                             <constraint firstItem="Fv4-yM-UbZ" firstAttribute="trailing" secondItem="kaD-5k-WJx" secondAttribute="trailing" id="N5I-4H-uhD"/>
+                            <constraint firstItem="dPP-Q4-QdR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NCc-zb-oj2"/>
                             <constraint firstItem="B3h-Xw-hmO" firstAttribute="top" secondItem="CBA-SO-5vG" secondAttribute="bottom" constant="8" id="NFD-xu-6St"/>
                             <constraint firstItem="8tU-IE-6ce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O6A-7e-qZ0"/>
                             <constraint firstItem="I7d-Jg-L9c" firstAttribute="top" secondItem="39D-lF-xxO" secondAttribute="bottom" constant="8" id="Oux-fr-Yte"/>
@@ -235,6 +244,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
     </resources>
 </document>
