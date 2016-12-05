@@ -8,6 +8,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var countryField: UITextField!
     @IBOutlet weak var zipLabel: UILabel!
     @IBOutlet weak var zipField: UITextField!
+    @IBOutlet weak var buyNowBtn: UIButton!
     
     let states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
     
@@ -50,6 +51,13 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         zipLabel.isHidden = false
         zipField.isHidden = false
     }
-
+    
+    @IBAction func buyNowTapped(_ sender: UIButton) {
+//        for view in self.view.subviews as [UIView] {
+//            view.isHidden = true
+//        }
+//        successImageView.isHidden = false
+    }
+    
 }
 

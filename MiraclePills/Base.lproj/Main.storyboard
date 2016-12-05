@@ -173,11 +173,14 @@
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPP-Q4-QdR">
-                                <rect key="frame" x="91.666666666666686" y="664" width="231" height="45"/>
+                                <rect key="frame" x="92" y="664" width="231" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="231" id="Rlz-DQ-NvG"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="buyNowBtn"/>
+                                <connections>
+                                    <action selector="buyNowTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAe-qy-PA4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -234,6 +237,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buyNowBtn" destination="dPP-Q4-QdR" id="NwT-9a-L9g"/>
                         <outlet property="countryField" destination="AX6-dh-l32" id="wJj-ta-9Bn"/>
                         <outlet property="countryLabel" destination="oen-Sj-f55" id="v3Q-Qh-V9e"/>
                         <outlet property="statePicker" destination="B3h-Xw-hmO" id="Wvw-mH-DzJ"/>
